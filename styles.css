@@ -74,5 +74,9 @@ span {
 .home {
  border: 1px solid red;
  width: 100%;
- min-height: 100vh;
+ min-height: 50vh;
+ margin-top: 100px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
 }
