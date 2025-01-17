@@ -16,8 +16,7 @@ body{
 /* ****************NAV SECTION************** */
 
 #nav {
- border: 1px solid red;
-
+ /* border: 1px solid red; */
  background-color: transparent;
  position: fixed;
  /* overflow: hidden; */
@@ -31,7 +30,7 @@ body{
 
 #nav a {
 text-decoration: none;
-font-size: 20px;
+font-size: 18px;
 color: #DADDD8;
 letter-spacing: 1px;
 box-sizing: border-box;
@@ -44,8 +43,8 @@ padding: 12px 20px;
 }
 
 #nav a:hover {
-font-size: 18px;
-text-decoration: underline #DADDD8 wavy;
+font-size: 17px;
+text-decoration: underline #DADDD8 double;
 /* box-shadow: 5px 5px 20px rgb(218, 221, 216); */
 }
 
