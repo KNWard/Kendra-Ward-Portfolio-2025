@@ -15,48 +15,6 @@ body{
 
 /* ****************NAV SECTION************** */
 
-#nav {
- /* border: 1px solid red; */
- background-color: transparent;
- position: fixed;
- /* overflow: hidden; */
- z-index: 1;
- /* top: -50px; */
- width: 100%;
- display: block;
- transition: top 0.5s;
- text-align: right;
-}
 
-#nav a {
-text-decoration: none;
-font-size: 18px;
-color: #DADDD8;
-letter-spacing: 1px;
-box-sizing: border-box;
-display: inline-block;
-text-align: center;
-padding: 12px 20px;
-/* margin-bottom: 10px; */
-/* border-radius: 30px; */
- transition: 0.5s ease-in-out;
-}
 
-#nav a:hover {
-font-size: 17px;
-text-decoration: underline #DADDD8 double;
-/* box-shadow: 5px 5px 20px rgb(218, 221, 216); */
-}
-
-.myLogo {
- display: block;
- padding: 40px;
- margin-left: 20px;
- float: left;
-}
-
-.myLogoImg {
- /* width: 35px; */
- height: 35px;
- transition: 0.5s ease-in-out;
-}
+/* ********HERO SECTION********** */
