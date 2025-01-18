@@ -24,7 +24,7 @@
         <a href="#hero">Home</a>
         <a href="#about-me">About me</a>
         <a href="#projects">Projects</a>
-        <a href="#contact-me">Contact</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
     <!-- HOME SECTION -->
@@ -60,7 +60,7 @@
     </section>
     <!-- ABOUT SECTION -->
     <section class="about-me" id="about-me">
-     <h2>About Me</h2>
+      <h2>About Me</h2>
       <div class="about-me-inner">
         <div class="about-me-info">
           <p>
@@ -75,7 +75,7 @@
           </p>
         </div>
         <div class="about-me-skills">
-         <h3 id="skills-title">Skills</h3>
+          <h3 id="skills-title">Skills</h3>
           <ul class="flex-container">
             <li class="skills-icon">
               <i class="fab fa-html5 fa-lg"></i>
@@ -95,64 +95,91 @@
     </section>
     <!-- PROJECTS SECTION -->
     <section class="projects" id="projects">
-     <h2>Projects</h2>
-     <div class="projects-container">
-      <div class="project-card">
-        <img
-          class="project-image"
-          src="src/images/restaurantprojectheadshot.jpg"
-          alt="Restaurant Landing Page Image"
-        />
-        <h3>
-          <button class="project-link" id="project-link-one">
-            Restaurant Landing Page
-          </button>
-          <i class="fa-solid fa-arrow-up-right-from-square" id="arrow"></i>
-        </h3>
-      </div>
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/images/restaurantprojectheadshot.jpg"
+            alt="Restaurant Landing Page Image"
+          />
+          <h3>
+            <button class="project-link" id="project-link-one">
+              Restaurant Landing Page
+            </button>
+            <i class="fa-solid fa-arrow-up-right-from-square" id="arrow"></i>
+          </h3>
+        </div>
 
-      <div class="project-card">
-        <img
-          class="project-image"
-          src="src/images/todoappheadshot.jpg"
-          alt="To Do App Image"
-        />
-        <h3>
-          <button class="project-link" id="project-link-two">
-            To Do App
-          </button>
-          <i class="fa-solid fa-arrow-up-right-from-square" id="arrow"></i>
-        </h3>
-      </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/images/todoappheadshot.jpg"
+            alt="To Do App Image"
+          />
+          <h3>
+            <button class="project-link" id="project-link-two">
+              To Do App
+            </button>
+            <i class="fa-solid fa-arrow-up-right-from-square" id="arrow"></i>
+          </h3>
+        </div>
 
-      <div class="project-card">
-        <img
-          class="project-image"
-          src="src/images/technicaldocumentationheadshot.png"
-          alt="Technical Documentation Page Project Image"
-        />
-        <h3>
-          <button class="project-link" id="project-link-three">
-            Tecnical Documentation Page
-          </button>
-          <i class="fa-solid fa-arrow-up-right-from-square" id="arrow"></i>
-        </h3>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/images/technicaldocumentationheadshot.png"
+            alt="Technical Documentation Page Project Image"
+          />
+          <h3>
+            <button class="project-link" id="project-link-three">
+              Tecnical Documentation Page
+            </button>
+            <i class="fa-solid fa-arrow-up-right-from-square" id="arrow"></i>
+          </h3>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/images/finalprojectheadshot.jpg"
+            alt="Nova Butters Landing Page Image"
+          />
+          <h3>
+            <button class="project-link" id="project-link-four">
+              General Assembly Final Project
+            </button>
+            <i class="fa-solid fa-arrow-up-right-from-square" id="arrow"></i>
+          </h3>
+        </div>
       </div>
-      <div class="project-card">
-        <img
-          class="project-image"
-          src="src/images/finalprojectheadshot.jpg"
-          alt="Nova Butters Landing Page Image"
-        />
-        <h3>
-          <button class="project-link" id="project-link-four">
-            General Assembly Final Project
-          </button>
-          <i class="fa-solid fa-arrow-up-right-from-square" id="arrow"></i>
-        </h3>
-      </div>
-    </div>
     </section>
+    <!-- CONTACT SECTION -->
+     <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <div class="form-container">
+       <form
+         class="form"
+         action="https://formsubmit.co/kendra.ward223@gmail.com"
+         method="POST"
+       >
+         <input type="text" name="name" placeholder="Name" required /><br />
+         <input
+           type="email"
+           name="email"
+           placeholder="Email@.com"
+           required
+         /><br />
+         <textarea
+           type="text"
+           name="message"
+           placeholder="write your message here..."
+           required
+         ></textarea
+         ><br />
+         <button type="submit">Submit</button>
+       </form>
+     </div>
+     </section>
     <script src="./app.js"></script>
   </body>
 </html>
