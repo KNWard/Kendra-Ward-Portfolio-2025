@@ -157,3 +157,29 @@ span {
               0 0 50px #ebb80f;
  transform: scale(1.1);
 }
+
+/* ABOUT SECTION */
+.about-me {
+ border: 1px solid green;
+ padding: 35px 12%;
+}
+
+.about-me h2 {
+ text-align: center;
+}
+
+.about-me-inner {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.about-me-info {
+ border: 1px solid purple;
+ max-width: 500px;
+}
+
+.about-me-skills {
+ border: 1px solid peru;
+ max-width: 500px;
+}
