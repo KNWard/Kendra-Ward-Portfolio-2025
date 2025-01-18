@@ -194,6 +194,7 @@ span {
 }
 
 .projects-container {
+ border: 2px solid red;
  padding: 20px;
  display: flex;
  justify-content: space-around;
