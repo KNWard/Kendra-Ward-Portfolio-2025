@@ -6,8 +6,8 @@
  font-weight: 300;
  text-decoration: none;
  list-style: none;
- /* background-color: #023047; */
- color: black;
+ background-color: #131313e2;
+ color: lightslategray;
  scroll-behavior: smooth;
 }
 
@@ -97,7 +97,7 @@ span {
  white-space: nowrap;
  overflow: hidden;
  border-right: 3px solid;
- color: black;
+ /* color: black; */
  font-weight: 300;
 }
 
@@ -221,14 +221,27 @@ height: 300px;
 border-radius: 15px;
 }
 
+.btn-project {
+ background-color: inherit;
+}
+
 .project-link {
-color: #ebb80f;
-background-color: transparent;
+color: green;
+background-color: inherit;
 font-size: 20px;
-font-weight: bold;
+/* font-weight: bold; */
 cursor: pointer;
 border: none;
 transition: 0.5s;
+}
+
+.project-link:hover {
+ font-size: 18px;
+}
+
+.project-link:hover + #arrow {
+ /* display: block; */
+ font-size: 18px;
 }
 
 /* CONTACT SECTION */
@@ -257,12 +270,12 @@ transition: 0.5s;
  height: 30px;
  font-size: 20px;
  border-radius: 5px;
- border: 2px solid #023047;
- box-shadow: 3px 3px 15px rgb(2, 48, 71);
+ border: 2px solid lightslategray;
+ box-shadow: 3px 3px 15px lightslategray;
 }
 
 .form input:focus {
- background-color:  rgb(2, 48, 71);
+ background-color:  lightslategray;
  color: #EEF0F2;
 }
 
@@ -273,12 +286,12 @@ transition: 0.5s;
  height: 80px;
  font-size: 20px;
  border-radius: 5px;
- border: 2px solid #023047;
-box-shadow: 3px 3px 15px rgb(2, 48, 71);
+ border: 2px solid lightslategray;
+box-shadow: 3px 3px 15px lightslategray;
 }
 
 .form textarea:focus {
- background-color:  rgb(2, 48, 71);
+ background-color:  lightslategray;
  color: #EEF0F2;
 }
 
@@ -292,12 +305,25 @@ box-shadow: 3px 3px 15px rgb(2, 48, 71);
  letter-spacing: 1px;
  border: none;
  background-color: transparent;
- color: #023047;
+ /* color: #023047; */
  border-radius: 30px;
  transition: 0.5s ease-in-out;
 }
 
 .form button:hover {
- box-shadow: 5px 5px 20px #023047;
+ box-shadow: 5px 5px 20px lightslategray;
  width: 225px;
+}
+
+/* FOOTER */
+footer {
+ text-align: center;
+ background: #131313e2;
+
+}
+
+footer p {
+ color: white;
+ font-family: 30px;
+ padding: 10px;
 }
