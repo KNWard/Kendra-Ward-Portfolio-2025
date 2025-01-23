@@ -41,7 +41,7 @@
  color: white;
  font-weight: 600;
  transition: 0.3s ease;
-}
+}max-
 
 .logo:hover,
 .logo span:hover {
@@ -51,7 +51,7 @@
  transform: scale(1.1);
 }
 
-span {
+.name {
  color: #ebb80f;
  font-weight: 600;
 }
@@ -72,7 +72,7 @@ span {
 
 /* ********HOME SECTION********** */
 .home {
- /* border: 1px solid red; */
+ border: 1px solid red;
  width: 100%;
  min-height: 50vh;
  margin-top: 100px;
@@ -82,7 +82,9 @@ span {
 }
 
 .home-content {
- /* border: 1px solid blue; */
+ border: 1px solid blue;
+ /* width: 50%; */
+ padding: 15px;
 }
 .home-content h3 {
  font-size: 40px;
@@ -91,25 +93,30 @@ span {
  font-size: 50px;
 }
 
+.home-content p {
+ font-size: 50px;
+ font-weight: 600;
+ color: #ebb80f;
+}
+
+
 .typing {
- width: 27ch;
- animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+ width: 19ch;
+ animation: typing 2s steps(19), blink .5s step-end infinite alternate;
  white-space: nowrap;
  overflow: hidden;
  border-right: 3px solid;
- /* color: black; */
- font-weight: 300;
 }
 
 @keyframes typing {
  from {
-   width: 0
+   width: 0;
  }
 }
 
 @keyframes blink {
  50% {
-   border-color: transparent
+   border-color: transparent;
  }
 }
 
@@ -138,14 +145,14 @@ span {
 }
 
 .home-social {
- /* border: 1px solid green; */
+ border: 1px solid green;
  display: flex;
- flex-direction: row;
+ flex-direction: column;
  justify-content: center;
 }
 
 .home-social i {
- margin: 40px;
+ margin: 20px;
  font-size: 50px;
  border: none;
  transition: 0.5s ease-in-out;
@@ -235,8 +242,8 @@ transition: 0.5s;
 }
 
 #arrow {
+ display: none;
  background-color: inherit;
-
 }
 
 .project-link:hover {
@@ -244,7 +251,8 @@ transition: 0.5s;
 }
 
 .project-link:hover + #arrow {
- /* display: block; */
+ display: inline-block;
+ background-color: inherit;
  font-size: 18px;
 }
 
