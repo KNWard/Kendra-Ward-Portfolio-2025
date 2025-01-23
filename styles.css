@@ -29,7 +29,7 @@
  width: 100%;
  padding: 35px 12%;
  background: #131313e2;
- backdrop-filter: blur(10px);
+ /* backdrop-filter: blur(10px); */
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -72,7 +72,7 @@ span {
 
 /* ********HOME SECTION********** */
 .home {
- border: 1px solid red;
+ /* border: 1px solid red; */
  width: 100%;
  min-height: 50vh;
  margin-top: 100px;
@@ -82,7 +82,7 @@ span {
 }
 
 .home-content {
- border: 1px solid blue;
+ /* border: 1px solid blue; */
 }
 .home-content h3 {
  font-size: 40px;
@@ -160,7 +160,7 @@ span {
 
 /* ABOUT SECTION */
 .about-me {
- border: 1px solid green;
+ /* border: 1px solid green; */
  padding: 35px 12%;
 }
 
@@ -175,12 +175,12 @@ span {
 }
 
 .about-me-info {
- border: 1px solid purple;
+ /* border: 1px solid purple; */
  max-width: 500px;
 }
 
 .about-me-skills {
- border: 1px solid peru;
+ /* border: 1px solid peru; */
  max-width: 500px;
 }
 
@@ -194,7 +194,7 @@ span {
 }
 
 .projects-container {
- border: 2px solid red;
+ /* border: 2px solid red; */
  padding: 20px;
  display: flex;
  justify-content: space-around;
@@ -203,8 +203,8 @@ span {
 .project-card {
 width: 400px;
 height: 450px;
-background-color: #EEF0F2;
-/* box-shadow:3px 3px 15px #ebb80f; */
+background-color: #131313e2;
+box-shadow:3px 3px 15px #ebb80f;
 border-radius: 15px;
 transition: 0.5s ease-in-out;
 }
@@ -226,13 +226,17 @@ border-radius: 15px;
 }
 
 .project-link {
-color: green;
 background-color: inherit;
 font-size: 20px;
 /* font-weight: bold; */
 cursor: pointer;
 border: none;
 transition: 0.5s;
+}
+
+#arrow {
+ background-color: inherit;
+
 }
 
 .project-link:hover {
