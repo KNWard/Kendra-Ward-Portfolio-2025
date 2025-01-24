@@ -191,8 +191,9 @@
  max-width: 500px;
 }
 
-/* PROJECTS SECTION */
+/*************** PROJECTS SECTION ***************/
 .projects {
+  border: 2px dashed yellow;
  margin: 0;  
  display: flex;
  flex-direction: column;
@@ -202,12 +203,45 @@
 
 .projects-container {
  border: 2px solid red;
- padding: 20px;
+ /* padding: 20px;
  display: flex;
- justify-content: space-around;
+ justify-content: space-around; */
 }
 
 .project-card {
+  border: 1px solid green;
+  border-radius: 30px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-c-right {
+  flex-direction: row-reverse;
+}
+
+.img-container {
+  border: 1px solid purple;
+  width: 50%;
+  border-radius: 30px;
+}
+
+.img-container img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.info-container {
+  width: 50%;
+  padding: 20px;
+}
+
+.project-title {
+  text-align: center;
+}
+
+/* .project-card {
 width: 200px;
 height: 250px;
 background-color: #131313e2;
@@ -218,7 +252,6 @@ transition: 0.5s ease-in-out;
 
 .project-card:hover {
 box-shadow: 10px 10px 40px #ebb80f;
-/* background-color: #ebb80f; */
 }
 
 .project-image {
@@ -235,7 +268,6 @@ border-radius: 15px;
 .project-link {
 background-color: inherit;
 font-size: 20px;
-/* font-weight: bold; */
 cursor: pointer;
 border: none;
 transition: 0.5s;
@@ -254,7 +286,7 @@ transition: 0.5s;
  display: inline-block;
  background-color: inherit;
  font-size: 18px;
-}
+} */
 
 /* CONTACT SECTION */
 .contact {
