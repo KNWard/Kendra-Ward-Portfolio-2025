@@ -6,7 +6,7 @@
  font-weight: 300;
  text-decoration: none;
  list-style: none;
- background-color: #131313e2;
+ background-color: black;
  color: lightslategray;
  scroll-behavior: smooth;
 }
@@ -26,7 +26,7 @@ hr {
  left: 0;
  width: 100%;
  padding: 35px 12%;
- background: #131313e2;
+ background: black;
  /* backdrop-filter: blur(10px); */
  display: flex;
  justify-content: space-between;
@@ -84,6 +84,8 @@ hr {
 .home-content {
  padding: 15px;
  border: 1px solid lightslategray;
+ border-radius: 30px;
+
 }
 .home-content h3 {
  font-size: 40px;
@@ -136,6 +138,7 @@ hr {
   cursor: pointer;
   transition: 0.5s ease;
   border: 1px solid lightslategray;
+ border-radius: 15px;
 }
 .btn-home:hover {
  color: #ebb80f;
@@ -145,10 +148,11 @@ hr {
 }
 
 .home-social {
- /* border: 1px solid green; */
  display: flex;
  flex-direction: column;
  justify-content: center;
+ border: 1px solid lightslategray;
+ border-radius: 15px;
 }
 
 .home-social i {
@@ -189,6 +193,7 @@ hr {
  max-width: 700px;
  padding: 15px;
  border: 1px solid lightslategray;
+ border-radius: 30px;
 }
 
 .about-me-info p {
@@ -199,6 +204,7 @@ hr {
  width: 500px;
  margin-top: 15px;
  border: 1px solid lightslategray;
+ border-radius: 30px;
 }
 
 .skills-title {
@@ -258,8 +264,6 @@ hr {
 
 .project-card {
   border: 1px solid lightslategray;
-  /* margin: 10px; */
-  /* max-width: 75%; */
   width: 825px;
   height: 300px;
   margin: 20px 0;
