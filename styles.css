@@ -332,36 +332,43 @@ hr {
 
 /************ CONTACT SECTION *************/
 .contact {
- text-align: center;
+ /* text-align: center; */
  padding-top: 10px;
 }
 
 .contact h2 {
   text-transform: uppercase;
+  text-align: center;
 }
 
 .form-container {
+  width: 600px;
  margin: auto;
  display: block;
+ border: 1px solid lightslategray;
+ border-radius: 15px;
 }
 
 .form {
- display: inline-block;
- justify-content: center;
- align-items: center;
- padding-top: 10px;
- padding-bottom: 30px;
+ margin: 20px;
+ /* padding-top: 10px; */
+ /* padding-bottom: 30px; */
+ /* border: 1px solid red; */
+}
+
+.form-lbl {
+  font-size: 20px;
 }
 
 .form input {
- margin: 4px 0;
+ margin: 5px 0px 10px 0px;
  padding: 5px;
- width: 500px;
+ width: 100%;
  height: 30px;
- font-size: 20px;
+ font-size: 16px;
  border-radius: 5px;
- border: 2px solid lightslategray;
- box-shadow: 3px 3px 15px lightslategray;
+ border: 1px solid lightslategray;
+ /* box-shadow: 3px 3px 15px lightslategray; */
 }
 
 .form input:focus {
@@ -370,14 +377,15 @@ hr {
 }
 
 .form textarea {
- margin: 4px 0;
+ /* margin: 4px 0; */
+ margin: 5px 0px 10px 0px;
  padding: 5px;
- width: 500px;
+ width: 100%;
  height: 80px;
- font-size: 20px;
+ font-size: 16px;
  border-radius: 5px;
- border: 2px solid lightslategray;
-box-shadow: 3px 3px 15px lightslategray;
+ border: 1px solid lightslategray;
+/* box-shadow: 3px 3px 15px lightslategray; */
 }
 
 .form textarea:focus {
@@ -386,26 +394,23 @@ box-shadow: 3px 3px 15px lightslategray;
 }
 
 .form button {
- margin: 2px 0;
- width: 200px;
- height: 55px;
- font-size: 30px;
- /* font-weight: bold; */
+ /* margin: 2px 0; */
+ width: 100%;
+ height: 35px;
+ font-size: 16px;
  text-transform: uppercase;
  letter-spacing: 1px;
- border: none;
+ border: 1px solid lightslategray;
  background-color: transparent;
- /* color: #023047; */
- border-radius: 30px;
+ border-radius: 5px;
  transition: 0.5s ease-in-out;
 }
 
 .form button:hover {
  box-shadow: 5px 5px 20px lightslategray;
- width: 225px;
 }
 
-/* FOOTER */
+/************** FOOTER ****************/
 footer {
  text-align: center;
  background: #131313e2;
