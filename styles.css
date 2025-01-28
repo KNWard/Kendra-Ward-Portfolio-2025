@@ -273,6 +273,10 @@ hr {
   border-radius: 20px;
 }
 
+.project-card:hover {
+  box-shadow: 10px 10px 10px #ebb80f;
+}
+
 .p-c-right {
   flex-direction: row-reverse;
 }
