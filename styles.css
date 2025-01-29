@@ -4,6 +4,7 @@
  box-sizing: border-box;
  font-family: "Open Sans", serif;
  font-weight: 300;
+ letter-spacing: 1px;
  text-decoration: none;
  list-style: none;
  background-color: black;
@@ -83,8 +84,8 @@ hr {
 
 .home-content {
  padding: 15px;
- border: 1px solid lightslategray;
- border-radius: 20px;
+ /* border: 1px solid lightslategray; */
+ border-radius: 10px;
 
 }
 .home-content h3 {
@@ -137,7 +138,7 @@ hr {
   margin-top: 20px;
   cursor: pointer;
   transition: 0.5s ease;
-  border: 1px solid lightslategray;
+  /* border: 1px solid lightslategray; */
  border-radius: 10px;
 }
 .btn-home:hover {
@@ -148,11 +149,12 @@ hr {
 }
 
 .home-social {
+  padding: 10px;
  display: flex;
  flex-direction: column;
  justify-content: center;
- border: 1px solid lightslategray;
- border-radius: 20px;
+ /* border: 1px solid lightslategray; */
+ border-radius: 10px;
 }
 
 .home-social i {
@@ -176,6 +178,8 @@ hr {
 }
 
 .about-me h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
  text-align: center;
  text-transform: uppercase;
 }
@@ -189,10 +193,12 @@ hr {
 }
 
 .about-me-info {
- max-width: 700px;
+ max-width: 900px;
  padding: 15px;
- border: 1px solid lightslategray;
- border-radius: 20px;
+ text-align: center;
+ line-height: 1.6;
+ /* border: 1px solid lightslategray; */
+ border-radius: 10px;
 }
 
 .about-me-info p {
@@ -202,12 +208,13 @@ hr {
 .about-me-skills {
  width: 500px;
  margin-top: 15px;
- border: 1px solid lightslategray;
- border-radius: 20px;
+ padding: 10px;
+ /* border: 1px solid lightslategray; */
+ border-radius: 10px;
 }
 
 .skills-title {
-  font-size: 23px;
+  font-size: 25px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -222,9 +229,7 @@ hr {
 
 .flex-container i {
   color: lightslategray;
-  /* font-size: 40px; */
   margin: 20px;
-  /* margin: 30px 0px; */
  font-size: 50px;
  border: none;
  transition: 0.5s ease-in-out;
@@ -240,26 +245,24 @@ hr {
 /*************** PROJECTS SECTION ***************/
 .projects {
   /* border: 2px dashed yellow; */
- margin: 20px 0;  
+ margin: 50px 0;  
  display: flex;
  flex-direction: column;
- /* padding-bottom: 80px; */
 }
 
 .projects h2 {
   text-align: center;
  text-transform: uppercase;
+ font-size: 30px;
 }
 
 .projects-container {
  /* border: 2px solid red; */
  max-width: 100%;
- margin: 50px;
- /* padding: 20px; */
+ margin: 20px 50px;
+ padding: 40px;
  display: flex;
  flex-direction: column;
- justify-content: center;
- align-items: center;
 }
 
 .project-card {
@@ -270,7 +273,16 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 10px;
+ transition: 0.5s ease-in-out;
+}
+
+.p-c-left {
+  align-self: flex-start;
+}
+
+.p-c-right {
+  align-self: flex-end;
 }
 
 .project-card:hover {
@@ -311,6 +323,7 @@ hr {
 
 .info-container p {
   font-size: 18px;
+ line-height: 1.4;
 }
 
 .btn-container {
@@ -323,7 +336,7 @@ hr {
   font-size: 12px;
   font-weight: bold;
   border: 1px solid lightslategray;
-  border-radius: 8px;
+  border-radius: 5px;
   margin: 10px;
   padding: 8px;
 }
@@ -339,28 +352,26 @@ hr {
 /************ CONTACT SECTION *************/
 .contact {
  /* text-align: center; */
- padding-top: 10px;
+ padding: 50px 0;
 }
 
 .contact h2 {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 15px;
+  font-size: 30px;
 }
 
 .form-container {
   width: 600px;
  margin: auto;
  display: block;
- border: 1px solid lightslategray;
- border-radius: 15px;
+ /* border: 1px solid lightslategray; */
+ border-radius: 10px;
 }
 
 .form {
  margin: 20px;
- /* padding-top: 10px; */
- /* padding-bottom: 30px; */
- /* border: 1px solid red; */
 }
 
 .form-lbl {
@@ -368,13 +379,15 @@ hr {
 }
 
 .form input {
- margin: 5px 0px 10px 0px;
+ margin: 10px 0px 20px 0px;
  padding: 5px;
  width: 100%;
- height: 30px;
+ /* height: 30px; */
  font-size: 16px;
- border-radius: 5px;
- border: 1px solid lightslategray;
+ border: none;
+ border-bottom: 1px solid lightslategray;
+ /* border-radius: 5px; */
+ /* border: 1px solid lightslategray; */
  /* box-shadow: 3px 3px 15px lightslategray; */
 }
 
@@ -410,6 +423,7 @@ hr {
  border: 1px solid lightslategray;
  background-color: transparent;
  border-radius: 5px;
+ cursor: pointer;
  transition: 0.5s ease-in-out;
 }
 
