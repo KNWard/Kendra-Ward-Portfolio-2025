@@ -29,10 +29,6 @@ hr {
  padding: 35px 12%;
  background: #17181d;
  box-shadow: 5px 5px 12px #00000035;
- /* box-shadow: 6px 6px 12px #00000035, -6px -6px 12px #35353535; */
-
-
- /* backdrop-filter: blur(10px); */
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -40,11 +36,17 @@ hr {
 }
 
 .logo {
+  /* border: 1px solid green; */
  font-size: 25px;
  color: lightgrey;
  text-transform: uppercase;
  font-weight: 600;
  transition: 0.3s ease;
+}
+
+.logo i{
+  color: #e99856;
+  font-size: 16px;
 }
 
 .logo:hover {
