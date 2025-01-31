@@ -185,13 +185,6 @@ hr {
  margin: 20px 0;
 }
 
-.about-me h2 {
-  margin-bottom: 20px;
-  font-size: 30px;
- text-align: center;
- text-transform: uppercase;
-}
-
 .about-me-inner {
  display: flex;
  flex-direction: column;
@@ -199,6 +192,13 @@ hr {
  align-items: center;
  box-shadow: 6px 6px 12px #00000035, -6px -6px 12px #35353535;
  /* border: 1px solid lightslategray; */
+}
+
+.about-me-inner h2 {
+  margin: 20px 0;
+  font-size: 30px;
+ text-align: center;
+ text-transform: uppercase;
 }
 
 .about-me-info {
