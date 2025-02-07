@@ -72,8 +72,10 @@ hr {
 }
 
 .navbar a:hover {
+ padding: 5px;
  color: #e99856;
- border-bottom: 3px solid #e99856;
+ border-radius: 10px;
+ box-shadow: 5px 5px 5px #e99856;
 }
 
 
@@ -92,9 +94,6 @@ hr {
  padding: 15px;
  border-radius: 10px;
  box-shadow: 6px 6px 12px #00000035, -6px -6px 12px #35353535;
-  /* box-shadow: 5px 5px 12px #00000035; */
-  /* overflow: hidden; */
-  /* backdrop-filter: blur(4px); */
 }
 .home-content h3 {
  font-size: 40px;
@@ -131,7 +130,7 @@ hr {
 
 
 .btn-home {
- position: static;
+ /* position: static; */
   display: inline-block;
   justify-content: center;
   align-items: center;
@@ -145,21 +144,14 @@ hr {
   padding-top: 5px;
   margin-top: 20px;
   cursor: pointer;
-  transition: 0.5s ease;
-  /* border: 1px solid lightslategray; */
- border-radius: 10px;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
 }
-.btn-home a:hover {
+.btn-home:hover {
   padding: 8px;
  color: #e99856;
  border-radius: 10px;
  box-shadow: 5px 5px 5px #e99856;
-
- /* box-shadow: 6px 6px 12px #00000035, -6px -6px 12px #35353535; */
- /* border: 1px solid lightslategray */
- /* text-shadow: 0 0 25px #e99856,
-              0 0 50px #e99856;
- transform: scale(1.1); */
 }
 
 
@@ -168,10 +160,8 @@ hr {
  display: flex;
  flex-direction: column;
  justify-content: center;
- /* border: 1px solid lightslategray; */
  border-radius: 10px;
  box-shadow: 6px 6px 12px #00000035, -6px -6px 12px #35353535;
-
 }
 
 .home-social i {
@@ -191,7 +181,7 @@ hr {
 .about-me {
  /* border: 1px solid green; */
  padding: 35px 12%;
- margin: 20px 0;
+ margin: 100px 0;
 }
 
 .about-me-inner {
@@ -208,6 +198,8 @@ hr {
   font-size: 30px;
  text-align: center;
  text-transform: uppercase;
+ /* color: #e99856; */
+ border-bottom: 2px solid #e99856;
 }
 
 .about-me-info {
@@ -233,9 +225,11 @@ hr {
 
 .skills-title {
   font-size: 25px;
+  align-self: center;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  border-bottom: 2px solid #e99856;
+  margin: 0 195px 15px 200px;
 }
 
 .flex-container {
@@ -268,9 +262,11 @@ hr {
 }
 
 .projects h2 {
+  align-self: center;
   text-align: center;
  text-transform: uppercase;
  font-size: 30px;
+ border-bottom: 2px solid #e99856;
 }
 
 .projects-container {
@@ -292,8 +288,8 @@ hr {
   align-items: center;
   border-radius: 10px;
   box-shadow: 6px 6px 12px #00000035, -6px -6px 12px #35353535;
-
- transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+ /* transition: 0.5s ease-in-out; */
 }
 
 .p-c-left {
@@ -354,16 +350,18 @@ hr {
   /* text-transform: uppercase; */
   font-size: 12px;
   font-weight: bold;
-  border: 1px solid lightslategray;
+  /* border: 1px solid lightslategray; */
   border-radius: 5px;
   margin: 10px;
   padding: 8px;
+  transition: 0.5s ease-in-out;
 }
 
 
 .btn-container a:hover {
-  background-color: #e99856;
-  color: #1a1836;
+  box-shadow: 5px 5px 5px #e99856;
+  /* background-color: #e99856;
+  color: #1a1836; */
   /* border: 1px solid black; */
   border: none;
 }
@@ -371,15 +369,18 @@ hr {
 
 /************ CONTACT SECTION *************/
 .contact {
- /* text-align: center; */
  padding: 50px 0;
+ display: flex;
+ flex-direction: column;
 }
 
 .contact h2 {
-  text-transform: uppercase;
+  align-self: center;
   text-align: center;
-  margin-bottom: 15px;
-  font-size: 30px;
+ text-transform: uppercase;
+ font-size: 30px;
+ border-bottom: 2px solid #e99856;
+  margin-bottom: 20px;
 }
 
 .form-container {
@@ -390,7 +391,11 @@ hr {
  /* border: 1px solid lightslategray; */
  border-radius: 10px;
  box-shadow: 6px 6px 12px #00000035, -6px -6px 12px #35353535;
+  transition: 0.5s ease-in-out;
+}
 
+.form-container:hover {
+  box-shadow: 10px 10px 10px #e99856;
 }
 
 .form {
