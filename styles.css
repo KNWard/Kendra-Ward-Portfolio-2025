@@ -13,8 +13,8 @@
 }
 
 hr {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 150px;
+  margin-right: 150px;
   border: 1px solid #5E60CE;
  }
 
@@ -94,7 +94,7 @@ hr {
 
 /* ********HOME SECTION********** */
 .home {
- /* border: 1px solid red; */
+ border: 1px solid red;
  width: 100%;
  min-height: 50vh;
  margin: 100px 0 20px 0;
@@ -104,6 +104,7 @@ hr {
 }
 
 .home-content {
+  border: 1px solid red;
  padding: 15px;
  border-radius: 10px;
  box-shadow: 6px 6px 12px #00000035, -6px -6px 12px #35353535;
@@ -140,7 +141,6 @@ hr {
    border-color: transparent;
  }
 }
-
 
 .btn-home {
  /* position: static; */
@@ -192,7 +192,7 @@ hr {
 
 /************** ABOUT SECTION ********************/
 .about-me {
- /* border: 1px solid green; */
+ border: 1px solid green;
  padding: 35px 12%;
  margin: 100px 0;
 }
@@ -385,6 +385,8 @@ hr {
 
 /************ CONTACT SECTION *************/
 .contact {
+  border: 1px solid red;
+  width: 100%;
  padding: 50px 0;
  display: flex;
  flex-direction: column;
@@ -486,6 +488,11 @@ footer p {
 /************** MEDIA QUERIES ***********/
 
 @media only screen and (max-width: 1024px) {
+  hr {
+    margin-left: 100px;
+    margin-right: 100px;
+   }
+
   .p-c-left {
     align-self: center;
   }
@@ -496,6 +503,12 @@ footer p {
 }
 
 @media only screen and (max-width: 768px) {
+  hr {
+    margin-left: 70px;
+    margin-right: 70px;
+    border: 1px solid #5E60CE;
+   }
+
   /* HEADER/NAVBAR SECTION */
   .hamburger {
     display: block;
@@ -524,8 +537,8 @@ footer p {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: #5E60CE;
-    opacity: 0.9;
+    background-color: #17181d;
+    /* opacity: 0.9; */
     width: 100%;
     height: 100%;
     text-align: center;
@@ -545,26 +558,9 @@ footer p {
   }
 
   .navbar a:hover {
-    color: #17181d;
+    color: #5E60CE;
     padding: none;
   }
-
-  /* .navbar a {
-    font-size: 18px;
-    color: lightgrey;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin: 0 20px;
-    border-bottom:  3px solid transparent;
-    transition: 0.5s ease;
-   }
-   
-   .navbar a:hover {
-    padding: 5px 8px;
-    color: #5E60CE;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px #5E60CE;
-   } */
 
 
   /* HOME SECTION */
@@ -593,6 +589,40 @@ footer p {
   .info-container {
     margin: 0 10px;
     padding: 5px;
+  }
+
+  /* ABOUT SECTION */
+  .about-me {
+    padding: 35px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  
+
+  .home-content {
+    border: 1px solid red;
+    width: 100%;
+    /* margin: 0 10px; */
+   padding: 15px;
+   border-radius: 10px;
+   box-shadow: 6px 6px 12px #00000035, -6px -6px 12px #35353535;
+  }
+  .home-content h3 {
+   font-size: 25px;
+  }
+  .home-content h1 {
+   font-size: 35px;
+  }
+  
+  .home-content p {
+   font-size: 30px;
+   font-weight: 600;
+   color: #5E60CE;
+  }
+
+  .typing {
+    /* animation: none; */
   }
 }
 
