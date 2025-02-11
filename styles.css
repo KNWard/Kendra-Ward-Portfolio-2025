@@ -78,6 +78,19 @@ hr {
  box-shadow: 5px 5px 5px #5E60CE;
 }
 
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(245, 243, 241);
+}
 
 /* ********HOME SECTION********** */
 .home {
@@ -316,6 +329,7 @@ hr {
 }
 
 .img-container img {
+  /* border: 1px solid green; */
   max-width: 300px;
   height: 280px;
   padding: 10px;
@@ -352,11 +366,8 @@ hr {
 
 .btn-live,
 .btn-github {
-  /* text-transform: uppercase; */
   font-size: 12px;
   font-weight: bold;
-  /* border: 1px solid lightslategray; */
-  /* border-radius: 5px; */
   border-bottom: 1px solid #5E60CE;
   margin: 10px;
   padding: 8px;
@@ -393,7 +404,6 @@ hr {
  margin: auto;
  padding: 10px;
  display: block;
- /* border: 1px solid lightslategray; */
  border-radius: 10px;
  box-shadow: 6px 6px 12px #00000035, -6px -6px 12px #35353535;
   transition: 0.5s ease-in-out;
@@ -415,13 +425,9 @@ hr {
  margin: 10px 0px 20px 0px;
  padding: 5px;
  width: 100%;
- /* height: 30px; */
  font-size: 16px;
  border: none;
  border-bottom: 1px solid #5E60CE;
- /* border-radius: 5px; */
- /* border: 1px solid lightslategray; */
- /* box-shadow: 3px 3px 15px lightslategray; */
 }
 
 .form input:focus {
@@ -430,7 +436,6 @@ hr {
 }
 
 .form textarea {
- /* margin: 4px 0; */
  margin: 5px 0px 10px 0px;
  padding: 5px;
  width: 100%;
@@ -438,7 +443,6 @@ hr {
  font-size: 16px;
  border-radius: 5px;
  border: 1px solid #5E60CE;
-/* box-shadow: 3px 3px 15px lightslategray; */
 }
 
 .form textarea:focus {
@@ -447,7 +451,6 @@ hr {
 }
 
 .form button {
- /* margin: 2px 0; */
  width: 100%;
  height: 35px;
  font-size: 16px;
@@ -500,4 +503,24 @@ footer p {
   .home-social {
     flex-direction: row;
   }
+
+  .projects {
+    margin: 50px 20px;
+  }
+
+  .project-card {
+    margin: 20px 30px;
+    width: 700px;
+  }
+
+  .img-container {
+    margin: 10px;
+  }
+
+  .info-container {
+    margin: 0 10px;
+    padding: 5px;
+  }
 }
+
+
