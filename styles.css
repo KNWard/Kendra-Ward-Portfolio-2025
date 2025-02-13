@@ -623,7 +623,7 @@ footer p {
   }
 
   .typing {
-    /* animation: none; */
+    animation: none;
   }
 }
 
