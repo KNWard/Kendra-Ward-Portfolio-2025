@@ -74,10 +74,14 @@ hr {
 }
 
 .navbar a:hover {
- padding: 5px 8px;
+ /* padding: 5px; */
  color: #5E60CE;
  border-radius: 10px;
  box-shadow: 5px 5px 5px #5E60CE;
+}
+
+.lightMode:hover {
+  box-shadow: none;
 }
 
 .hamburger {

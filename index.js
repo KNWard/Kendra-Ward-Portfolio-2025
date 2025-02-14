@@ -1,3 +1,6 @@
+// DARK/LIGHT MODE
+
+
 // OPEN BURGER MENU
 const hamburger = document.querySelector(".hamburger");
 const navList = document.querySelector(".navbar");
@@ -18,3 +21,5 @@ function closeMenu() {
 }
 
 navLink.forEach((n) => n.addEventListener("click", closeMenu));
+
+
