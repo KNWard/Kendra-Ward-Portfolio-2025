@@ -1,4 +1,15 @@
 // DARK/LIGHT MODE
+document.getElementById('lightMode').addEventListener('click', lightScreenMode);
+document.getElementById('darkMode').addEventListener('click', darkScreenMode);
+
+function lightScreenMode() {
+  document.getElementById('header').style.background = '#f4e7f9';
+}
+
+
+function darkScreenMode() {
+  document.getElementById('header').style.backgroundColor = '#17181d';
+}
 
 
 // OPEN BURGER MENU
