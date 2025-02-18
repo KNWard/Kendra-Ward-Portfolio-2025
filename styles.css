@@ -12,7 +12,6 @@
  scroll-behavior: smooth;
 }
 
-
 hr {
   margin-left: 150px;
   margin-right: 150px;
@@ -23,7 +22,6 @@ hr {
 
 /* ****************HEADER SECTION************** */
 .header {
- /* border: 1px solid yellow; */
  position: fixed;
  top: 0;
  left: 0;
@@ -38,7 +36,6 @@ hr {
 }
 
 .logo {
-  /* border: 1px solid green; */
  font-size: 25px;
  color: lightgrey;
  text-transform: uppercase;
@@ -74,7 +71,6 @@ hr {
 }
 
 .navbar a:hover {
- /* padding: 5px; */
  color: #5E60CE;
  border-radius: 10px;
  box-shadow: 5px 5px 5px #5E60CE;
@@ -100,7 +96,6 @@ hr {
 
 /* ********HOME SECTION********** */
 .home {
- /* border: 1px solid yellow; */
  min-width: 100%;
  min-height: 50vh;
  margin: 120px 0 20px 0;
@@ -110,7 +105,6 @@ hr {
 }
 
 .home-content {
-  /* border: 1px solid red; */
  padding: 15px;
  border-radius: 10px;
  box-shadow: 6px 6px 12px #00000035, -6px -6px 12px #35353535;
@@ -149,7 +143,6 @@ hr {
 }
 
 .btn-home {
- /* position: static; */
   display: inline-block;
   justify-content: center;
   align-items: center;
@@ -160,7 +153,6 @@ hr {
   text-align: center;
   text-transform: uppercase;
   font-size: 20px;
-  /* padding-top: 5px; */
   margin-top: 20px;
   cursor: pointer;
   border-radius: 10px;
@@ -198,7 +190,6 @@ hr {
 
 /************** ABOUT SECTION ********************/
 .about-me {
- /* border: 1px solid green; */
  min-width: 100%;
  padding: 35px 12%;
  margin: 100px 0;
@@ -210,7 +201,6 @@ hr {
  justify-content: center;
  align-items: center;
  box-shadow: 6px 6px 12px #00000035, -6px -6px 12px #35353535;
- /* border: 1px solid lightslategray; */
 }
 
 .about-me-inner h2 {
@@ -218,7 +208,6 @@ hr {
   font-size: 30px;
  text-align: center;
  text-transform: uppercase;
- /* color: #5E60CE; */
  border-bottom: 2px solid #5E60CE;
 }
 
@@ -273,7 +262,6 @@ hr {
 
 /*************** PROJECTS SECTION ***************/
 .projects {
-  /* border: 2px dashed yellow; */
  min-width: 100%;
  margin: 50px 0;  
  display: flex;
@@ -290,7 +278,6 @@ hr {
 }
 
 .projects-container {
- /* border: 2px solid red; */
  max-width: 100%;
  margin: 0 50px 20px 50px;
  padding: 40px;
@@ -299,7 +286,6 @@ hr {
 }
 
 .project-card {
-  /* border: 1px solid lightslategray; */
   width: 825px;
   height: 350px;
   margin: 20px 0;
@@ -328,14 +314,12 @@ hr {
 }
 
 .img-container {
-  /* border: 1px solid purple; */
   max-width: 50%;
   margin: 20px;
   border-radius: 30px;
 }
 
 .img-container img {
-  /* border: 1px solid green; */
   max-width: 300px;
   height: 280px;
   padding: 10px;
@@ -343,7 +327,6 @@ hr {
 }
 
 .info-container {
-  /* border: 1px solid yellow; */
   max-width: 500px;
   margin: 0 10px;
   padding: 20px;
@@ -366,7 +349,6 @@ hr {
 }
 
 .btn-container {
-  /* border: 1px solid red; */
   margin-top: 12px;
 }
 
@@ -391,7 +373,6 @@ hr {
 
 /************ CONTACT SECTION *************/
 .contact {
-  /* border: 1px solid red; */
   min-width: 100%;
  padding: 50px 0;
  display: flex;
@@ -534,7 +515,6 @@ footer p {
   }
 
   .navbar {
-    /* border: 1px solid orange; */
     position: fixed;
     left: -100%;
     top: 0;
@@ -544,7 +524,6 @@ footer p {
     justify-content: flex-start;
     align-items: center;
     background-color: #17181d;
-    /* opacity: 0.9; */
     width: 100%;
     height: 100%;
     text-align: center;
@@ -557,7 +536,6 @@ footer p {
   }
 
   .navbar a {
-    /* border: 1px solid green; */
     background-color: transparent;
     font-size: 40px;
     margin: 20px 0;
@@ -630,7 +608,6 @@ footer p {
 
   .typing {
     width: 20ch;
-    /* animation: none; */
   }
 
   /* ABOUT SECTION */
